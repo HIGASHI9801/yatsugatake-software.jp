@@ -80,6 +80,16 @@ h1,h2,h3,p,dl,dd{margin:0}
 .desk dt{font-weight:700}
 .date{text-align:right;color:var(--sub)}
 
+/* support */
+.support-mail{align-self:flex-start;background:var(--accent);color:#fff;margin-top:8px}
+.support-mail:hover{background:#1f3654;color:#fff}
+.support-list{margin:0;padding-left:1.4em}
+.faq{display:flex;flex-direction:column;gap:6px}
+.faq dt{font-weight:700;color:var(--ink);margin-top:14px}
+.faq dt:first-child{margin-top:0}
+.faq dt::before{content:"Q. ";color:var(--accent)}
+.faq dd{padding-left:1.6em}
+
 /* tablet */
 @media (max-width:960px){
   :root{--pad:40px}
